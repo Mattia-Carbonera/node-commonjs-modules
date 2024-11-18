@@ -4,8 +4,8 @@ const hobbies = require("./hobbies.js");
 const people = () => {
   const { firstName, lastName } = names;
 
-  const result = { firstName, lastName, hobbies };
-  return { result };
+  const people = { firstName, lastName, hobbies };
+  return { people };
 };
 
 console.log(people());
