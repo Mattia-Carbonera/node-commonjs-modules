@@ -1,9 +1,11 @@
-const theHobbie = ["moto", "calcio", "tennis"];
+const hobbyOne = "Calcio";
+const hobbyTwo = "Moto";
+const hobbyThree = "Tennis";
 
-const hobbies = (...hobbie) => {
-  const allHobbies = { hobbies: hobbie };
+const hobbies = (hobbyOne, hobbyTwo, hobbyThree) => {
+  const hobbies = { hobbyOne, hobbyTwo, hobbyThree };
 
-  return allHobbies;
+  return hobbies;
 };
 
-console.log(hobbies(theHobbie));
+module.exports = hobbies(hobbyOne, hobbyTwo, hobbyThree);

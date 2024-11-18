@@ -2,4 +2,4 @@ const names = (firstName, lastName) => {
   return { firstName, lastName };
 };
 
-console.log(names("Nome", "Cognome"));
+module.exports = names("mario", "Rossi");
